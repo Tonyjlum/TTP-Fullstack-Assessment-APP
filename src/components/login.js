@@ -34,12 +34,16 @@ class Login extends Component {
           <br/>
           <input
             className="form-input"
+            type= "password"
             id="password"
             placeholder="password"
             value={this.state.password}
             required/>
           <br/>
-          <input type="submit" value="Login"/>
+          <input
+            className="button"
+            type="submit"
+            value="Login"/>
         </form>
       </div>
     );
